@@ -1,0 +1,37 @@
+/*
+ * sample.css
+ * Copyright (C) 2015 sagar
+ *
+ * Distributed under terms of the MIT license.
+ */
+
+body {
+	background: white;
+	color: black;
+}
+
+
+.myCarousel {
+  width: 100%;
+}
+
+#myCarousel {
+  height: 200px;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+}
+
+.carousel-inner>.item>img {
+  display: inline-block;
+}
+
+.carousel-indicators li {
+  border: 1px solid black;
+}
+
+.client-right, .client-left {
+  color: gray
+}
+
